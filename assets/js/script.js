@@ -24,7 +24,7 @@ $(function(){
         typeSpeed: 200,
         backSpeed: 100,
         backDelay: 100,
-      loop: true, })});
+        loop: true, })});
 
 //Opacity with Hover for Travel
 $(".travel-item").hover(function() {
