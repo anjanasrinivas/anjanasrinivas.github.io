@@ -18,11 +18,13 @@ $(this).find('#travel-text').fadeOut(750);});
 $(function(){
   $(".type").typed({
         strings:
-        ["Developer",
-         "Musician",
-         "Traveler",
-         "#Developer #Musician #Traveler"],
-        typeSpeed: 80})});
+        ["#Developer",
+         "#Musician",
+         "#Traveler",],
+        typeSpeed: 200,
+        backSpeed: 100,
+        backDelay: 100,
+      loop: true, })});
 
 //Opacity with Hover for Travel
 $(".travel-item").hover(function() {
